@@ -1,6 +1,7 @@
 const reverseString = function(string) {
     let i=0;
     let j=string.length-1;
+    if(string==='')return string;
     let templ=string.split('');
     while(i<=j){
         let temp=templ[i];
